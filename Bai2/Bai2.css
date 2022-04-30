@@ -1,0 +1,89 @@
+.container { 
+    width: 1140px;
+    margin:auto;
+    border:1px solid darkgrey;
+}
+.header { 
+    background: darkolivegreen;
+    height: 120px; 
+    position: relative;
+}
+main{
+    background: darkseagreen;
+    min-height: 400px;
+}
+footer {
+    background: darkslategray;
+    height: 100px;
+}
+h4{
+    display: block;
+    position: absolute;
+    top: 10px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+}
+#dongho{
+    position: absolute;
+    top: 50px;
+    color: yellow;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    width: 1140px;
+    font-size: 25px;
+}
+main{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(253, 252, 252);
+}
+button{
+    color: rgb(255, 255, 255);
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 0 auto;
+    margin: 50px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: inset 0px 0px 25px #333;
+    background-image: linear-gradient(45deg, blue, red);
+}
+button:active{
+    transform: scale(0.95,0.95);
+}
+#chonbai{
+   height: 40px;
+   border-radius: 10px;
+   outline: none;
+   font-weight: bold;
+}
+#xembai{
+    margin-left: 5px;
+}
+.chonbaihoc{
+    border: 2px solid seashell;
+    border-radius: 20px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.chonbaihoc:hover legend{
+    transform: translateY(5px);
+    color: blue;
+    transition: 3s;
+}
+legend{
+    text-align: left;
+    margin-left: 20px;
+    font-weight: bold;
+    color: yellow;
+    font-size: 20px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Bai2.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h4>ĐỒNG HỒ</h4>
+            <span id="dongho"></span>
+        </div>
+        <main>
+            <button onclick="start()">Start</button>
+            <button onclick="stop()">Stop</button>
+            <fieldset class="chonbaihoc" >
+                <legend>CHỌN BÀI HỌC</legend>
+
+                <div >
+                    <select name="select-unit" id="chonbai">
+                        <option value="0">Chọn bài học</option>
+                        <option value="1">Bài 1: JavaScript là gì?</option>
+                        <option value="2">Bài 2: Biến, toán tử và biểu thức</option>
+                        <option value="3">Bài 3: Cấu trúc điều khiển, hàm và sự kiện</option>
+                        <option value="4">Bài 4: Lập trình đối tượng và mô hình BOM</option>
+                        <option value="5">Bài 5: Mô hình DOM trong JavaScript</option>
+                        <option value="6">Bài 6: Validate Form</option>
+                        <option value="7">Bài 7: Giới thiệu JavaScript Framework</option>
+                        <option value="8">Bài 8: Tập tành sử dụng angularJS</option>
+                    </select>
+                    <span><button type="button" onclick="checkbai()" id="xembai">Xem bài học</button></span>
+
+                </div>
+            </fieldset>
+        </main>
+        <footer></footer>
+    </div>
+    <script src="Bai2.js"></script>
+</body>
+
+</html>
+<script>
+    start();
+</script>
